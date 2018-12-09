@@ -1,0 +1,71 @@
+﻿/* ブラウザスタイルの初期化 */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+<style type="text/css">
+<!--
+.center {
+    text-align: center;
+}
+.center table,
+.center div,
+.center p {
+    margin-right: auto;
+    margin-left: auto;
+}
+-->
+</style>
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:  #00afcc;
+    color:  #ffffff;
+    text-align: center;
+}
+
+
+#header {
+    background-color: #dbebc4;
+    position:absolute;
+}
+
+#nav {
+    float: left;
+    width: auto;
+}
+
+h1 {
+    margin-right: 10px;
+    padding-top:  20px;
+    background-color: #55ffcc;
+    color:  #cc0000;
+    vertical-align: top;
+
+}
+
+h1.aaa{
+    margin: 120px;
+    color:#ffffff;
+    text-align: center;
+    background-color: #55ccff;
+    font-size: xx-large; 
+    vertical-align: top;
+}
+
+h2.bbb{
+    margin: 60;
+    color: #55ccff;
+    text-align: center;
+    background-color: #dbebc4;
+
+p.aaa{
+    font-size: xx-large;
+    text-align: center;
+}
+
